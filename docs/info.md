@@ -8,13 +8,13 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-
-Explain how your project works
+Uses d flip-flops to enter a dedupe state, filters bit stream (inverts duplication) and signals the events.  
 
 ## How to test
 
-Explain how to use your project
+Receive OUT0 (RX) and average the number of bits received. The average for 0 and 1 should approach, approximately, 50% over time. 
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+A clock source and a random number generator transmitting a bit stream over a pinout (GPIO).
+
